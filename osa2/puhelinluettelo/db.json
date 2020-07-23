@@ -1,0 +1,34 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "name": "Ada Loveace",
+      "number": "39-44-5323523",
+      "id": 5
+    },
+    {
+      "name": "Dan Bramov",
+      "number": "12-43-234345",
+      "id": 6
+    },
+    {
+      "name": "Tauno Testaaja",
+      "number": "040-12345678",
+      "id": 7
+    },
+    {
+      "name": "Tiina Testaaja",
+      "number": "029019201",
+      "id": 9
+    }
+  ]
+}
