@@ -61,7 +61,12 @@ const App = () => {
       setPersons(persons.concat(returnedPerson))
       setNewName('')
       setNewNumber('')
+    }).catch(error => {
+      // TODO: tee jos jaksatif (error.response.data.error.match(/name/g)) notification(error.response.data.error, 'error')
+      //console.log(error.response.data)
+      notification(error.response.data.error, 'error')
     })
+
     notification(`added ${personObject.name}`, 'notification')
   }
 
